@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/fraud.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h1>DevDetective</h1>
+                <div class="light-theme" data-userLightTab>
+                        <p class="theme">Dark</p>
+                        <img src="Assets/moon-icon.svg" loading="lazy" data-btnIcon>
+                </div>
+            </div>
+    
+            <form class="search-container active" data-searchForm>
+                <img src="Assets/icons8-search-100.png" height="25px" width="50px">
+                <input class="inputUser" type="search" placeholder="Enter a GitHub username..." data-getUserName required>
+                <div class="error">
+                    <p class="no-results">no search results</p>
+                </div>
+                <button class="btn" type="submit">Search</button>
+            </form>
+    
+            <div class="user-info-container">
+                <div class="user-main">
+                  <div class="user-info">
+                    <img id="avatar" data-userImage class="userImage">
+                    <div class="main-head">
+                        <div class="user-head">
+                            <h2 data-userName></h2>
+                            <a data-userLink target="_blank" >@</a>
+                        </div>
+                        <p id="date" data-userJoined></p>
+                      
+                    </div>
+                  </div>
+                  <p class="bio" data-userBio></p>
+                    <div class="user-extraInfo">
+    
+                        <div class="userInfo">
+                            <p>Repos</p>
+                            <p data-userRepos></p>
+                        </div>
+    
+                        <div class="userInfo">
+                            <p>Followers</p>
+                            <p data-userfollowers></p>
+                        </div>
+    
+                        <div class="userInfo">
+                            <p>Following</p>
+                            <p data-userfollowing></p>
+                        </div>
+                    </div>
+    
+                    <div class="links-container">
+    
+                        <div class="linkinfo">
+                            <img src="Assets/location-icon.svg">
+                            <p class="link-p" id="loc" data-userLocation></p>
+                        </div>
+                        <div class="linkinfo">
+                            <img src="Assets/website-icon.svg">
+                            <a class="link-a" data-userwebsite target="_blank"></a>
+                            <!-- <p data-userwebsite></p> -->
+                        </div>
+                        <div class="linkinfo">
+                            <img src="Assets/twitter-icon.svg">
+                            <a class="link-a" data-usertwitter target="_blank"></a>
+                        </div>
+                        <div class="linkinfo">
+                            <img src="Assets/company-icon.svg">
+                            <p class="link-p"  data-usercompany></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="developer">
+            <p>Developed & Managed by -</p>
+            <p>Vivek Chaudhary &copy;2023</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
