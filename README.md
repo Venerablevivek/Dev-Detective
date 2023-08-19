@@ -42,10 +42,9 @@ Key Features:
 
 Technologies:
 - HTML, CSS, and JavaScript for front-end development.
-- React.js or Vue.js for building dynamic and responsive user interfaces.
-- Node.js or Python for server-side logic and API integration.
+- Dynamic and responsive user interfaces.
+- API integration.
 - GitHub API for fetching user data.
-- OAuth or token-based authentication for optional user authentication.
 - Local storage or caching libraries for data storage and retrieval.
 - UI libraries/frameworks for enhancing visual appeal and user experience.
 
