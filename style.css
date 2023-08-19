@@ -278,7 +278,7 @@
     margin-bottom: 15px;
 }
 
-/* Mobile Scree */
+/* Tab Scree */
 @media only screen and (max-width: 768px){
     .container{
         width: 450px;
@@ -343,6 +343,119 @@
         align-items: flex-start;
         flex-wrap: wrap;
       }
+}
+@media only screen and (max-width: 475px){
+    .wrapper{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+    .theme{
+        font-size: 8px;
+    }
+    .themeIcon{
+        width: 5px;
+        height: 5px;
+    }
+
+    .light-theme{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .search-container {
+        padding: 2px;
+    }
+    
+    .inputUser {
+        font-size: 11px;
+        width: 74%;
+    }
+    
+    .inputUser::placeholder {
+        font-size: 10px;
+    }
+
+    .btn{
+        left: 73%;
+        min-width: 20px;
+        padding: 10px 10px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    .user-info-container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #avatar{
+        width: 80px;
+        height: 80px;
+    }
+
+    .user-info{
+        width: 90%;
+        justify-content: space-between;
+        gap: 1px;
+        margin-bottom: 5px;
+    }
+
+    .user-head h2{
+        font-size: 15px;
+    }
+    .user-head a{
+        font-size: 12px;
+    }
+
+    #date{
+        font-size: 10px;
+    }
+
+    .bio{
+        font-size: 12px;
+    }
+    .error {
+        top: -22%;
+        left: 60%;
+        font-size: 10px;
+      }
+    .userInfo{
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .user-extraInfo{
+        justify-content: space-between;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .userInfo p:first-child{
+        font-size: 10px;
+    }
+    
+    .userInfo p:last-child{
+        font-size: 15px;
+    }
+
+    .linkinfo img{
+        width: 10px;
+    }
+
+    .linkinfo p,a{
+        font-size: 12px;
+    }
+
+    .developer{
+        align-items: center;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
